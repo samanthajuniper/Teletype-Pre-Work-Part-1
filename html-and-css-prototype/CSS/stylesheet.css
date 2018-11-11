@@ -24,6 +24,7 @@ h1 {
 	text-align: center;
 }
 
+
 /* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
 
 	FONTS:
@@ -40,3 +41,149 @@ h1 {
 */
 
 /* Your CSS code goes here */
+
+.grid {
+    display: grid;
+    max-width: 630px;
+    max-height: 500px;
+    margin: 2% auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.grid-item-one {
+   height: 50px;
+}
+
+.grid-item-two {
+    height: 50px;
+}
+
+.heading {
+    margin: 0 auto;
+    width: 260px;
+    height: 40px;
+    color: white;
+    background-color: #424242;
+    text-align: center;
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    padding-top: 10px;
+    font-size: 0.813em;
+    border-radius: 3px;
+}
+
+.heading:after {
+    content:'';
+    position: absolute;
+    left: 50%;
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 0;
+    height: 0;
+    border-top: solid 9px #424242;
+    border-left: solid 8px transparent;
+    border-right: solid 8px transparent;
+}
+
+.grid-item-three {
+    height: 50px;
+}
+
+.grid-item-four {
+
+}
+
+.grid-item-five {
+    margin: 0 auto;
+    border: solid #eaeaea 1px;
+    padding-bottom: 5%;
+}
+
+progress[value] {
+ -webkit-appearance: none;
+  appearance: none;
+  width: 259px;
+  height: 12px;
+
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: white;
+  color: #EF5F3C;
+  border: solid #eaeaea 1px;
+  margin-top: -8px;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #EF5F3C;
+    width: 100%;
+}
+
+.grid-item-five p {
+    font-size: 0.750em;
+    padding: 2.3% 1% 2.3% 5.75%;
+    margin: 0 auto;
+    color: #858585;
+    font-weight: 500;
+}
+
+#amount {
+    width: 105px;
+    height: 45px;
+    padding: 2.3% 1% 2.3% 5%;
+    margin-left: 5.5%;
+    border: solid #eaeaea 1px;
+    border-radius: 3px;
+}
+
+
+#givebtn {
+    width: 105px;
+    height: 45px;
+    padding: 2.3% 1% 2.3% 1%;
+    margin-left: 3%;
+    border-radius: 4px;
+    background-color: #1CBC2C;
+    color: white;
+    font-size: 0.813em;
+    font-family:	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    letter-spacing: 1px;
+}
+
+input::placeholder {
+  color: #777;
+  font-weight: bold;
+  font-size: 1.313em;
+}
+
+#givetext {
+    color: #20A1D4;
+    font-family:	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    font-weight: 600;
+}
+
+#savebtn {
+    width: 120px;
+    height: 35px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    border-radius: 4%;
+    background-color:#F0F0F0;
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 0.750em;
+    color: #777778;
+}
+
+#sharebtn {
+    width: 120px;
+    height: 35px;
+    margin-top: 4%;
+    margin-left: 6%;
+    border-radius: 4%;
+    background-color:#F0F0F0;
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 0.750em;
+    color: #777778;
+}
