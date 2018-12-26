@@ -1,189 +1,149 @@
-/* Global resets */
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body {
+.divContainer {	
+	margin-left: 15px;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	color: #424242;
-	line-height: 1.4;
+	width: 571px;
+	height: 396.59px;
 }
 
-/* Fonts */
-h1 {
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
-	font-size: 2.5em;
+.topbar {
+	width:265px;
+	height: 43px;
+	background-color: #424242;
+	border-radius: 3px;
+	color: white;
+	text-align: center;
+    font-size: 13px;
+    position: absolute;
+	border-color: #424242 transparent transparent transparent;
+  	border-width: 4px 4px 4px 4px;
+	margin-bottom: 10px;
+}
+
+.topbar:after {
+    border-color: #424242 transparent transparent transparent;
+    border-style: solid;
+    border-width: 7px 5px 0px 5px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    right: 26px;
+	top: 42px;
+}
+
+.mainSectionContainer {
+	border: 1px solid #FAFAFA;
+	height: 195px;
+	width: 265px;
+	position: relative;
+	top: 52px;
+	font-size: 20px;
+	border: 1px solid #eaeaea;
+}
+
+#progressBarOne {
+	width: 198px;
+	height: 11px;
+	background-color: #F25E34;	
+	float: left;
+	bottom: -50px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+#progressBarTwo {
+	width:67px;
+	height: 11px;
+	background-color: #FAFAFA;
+	left: 198px;
+	position: relative;
+	position: relative;
+	border-bottom: 1px solid #eaeaea;
+}
+	
+span {
+	font-size: 12px;
+	color: #F25E34;
+}
+
+.mainContent {
+	font-size: 12px;
+	color: #838383;
+	margin-left: 22px;
+}
+
+.amount {
+	width: 95px;
+	height: 40px;
+	float:left;
+	border: 1px solid #eaeaea;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	font-size: 15px;
+	text-align: left;
+	vertical-align: middle;
+	line-height: 45px; 
+	padding-left: 6px;
+	color: #828282;
 	font-weight: bold;
 }
 
-.container {
-	margin: 2em auto;
-	max-width: 630px;
+.giveNow {
+	width: 105px;
+	height: 42px;
+	margin-left: 120px;
+	margin-top: 13px;
+	background-color: #00BE1C;
+	border-radius: 2px;
+	color: white;
+	font-size: 15px;
 	text-align: center;
+	vertical-align: middle;
+	line-height: 42px; 
 }
 
-
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
-
-	FONTS:
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
-
-  COLORS:
-  blue: #20A1D4;
-  green: #1CBC2C;
-  orange: #EF5F3C;
-  black: #424242;
-  grey: #777;
-  light grey: #eaeaea;
-*/
-
-/* Your CSS code goes here */
-
-.grid {
-    display: grid;
-    max-width: 630px;
-    max-height: 500px;
-    margin: 2% auto;
-    grid-template-columns: 1fr 1fr 1fr;
+.whyGive {
+	position: absolute;
+	margin-top: 10px;
+	color: #26A6D9;
+	border: none;
+	background-color: none;
 }
 
+.bottomSection {
+	width: 125px;
+	height: 31px;
+	background-color: #FAFAFA;
+	border-radius: 5%;
+	border: 1px solid #eaeaea;
+	border-bottom-width: 2px;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	line-height:30px;
+	color: #777777;
+	position: absolute;
+} 
 
-.grid-item-one {
-   height: 50px;
+.buttonOne {
+	margin-top: 53px;
+ 	margin-left: -22px;	
 }
 
-.grid-item-two {
-    height: 50px;
-}
-
-.heading {
-    margin: 0 auto;
-    width: 260px;
-    height: 40px;
-    color: white;
-    background-color: #424242;
-    text-align: center;
-    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-    padding-top: 10px;
-    font-size: 0.813em;
-    border-radius: 3px;
-}
-
-.heading:after {
-    content:'';
-    position: absolute;
-    left: 50%;
-    margin-left: 90px;
-    margin-top: 10px;
-    width: 0;
-    height: 0;
-    border-top: solid 9px #424242;
-    border-left: solid 8px transparent;
-    border-right: solid 8px transparent;
-}
-
-.grid-item-three {
-    height: 50px;
-}
-
-.grid-item-four {
-
-}
-
-.grid-item-five {
-    margin: 0 auto;
-    border: solid #eaeaea 1px;
-    padding-bottom: 5%;
-}
-
-progress[value] {
- -webkit-appearance: none;
-  appearance: none;
-  width: 259px;
-  height: 12px;
-
-}
-
-progress[value]::-webkit-progress-bar {
-  background-color: white;
-  color: #EF5F3C;
-  border: solid #eaeaea 1px;
-  margin-top: -8px;
-}
-
-progress[value]::-webkit-progress-value {
-    background-color: #EF5F3C;
-    width: 100%;
-}
-
-.grid-item-five p {
-    font-size: 0.750em;
-    padding: 2.3% 1% 2.3% 5.75%;
-    margin: 0 auto;
-    color: #858585;
-    font-weight: 500;
-}
-
-#amount {
-    width: 105px;
-    height: 45px;
-    padding: 2.3% 1% 2.3% 5%;
-    margin-left: 5.5%;
-    border: solid #eaeaea 1px;
-    border-radius: 3px;
-}
+.buttonTwo {
+  	margin-left: 118px;
+	margin-top: -65px;
+	margin-top: 53px;
+} 
 
 
-#givebtn {
-    width: 105px;
-    height: 45px;
-    padding: 2.3% 1% 2.3% 1%;
-    margin-left: 3%;
-    border-radius: 4px;
-    background-color: #1CBC2C;
-    color: white;
-    font-size: 0.813em;
-    font-family:	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-    letter-spacing: 1px;
-}
 
-input::placeholder {
-  color: #777;
-  font-weight: bold;
-  font-size: 1.313em;
-}
 
-#givetext {
-    color: #20A1D4;
-    font-family:	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-    font-weight: 600;
-}
 
-#savebtn {
-    width: 120px;
-    height: 35px;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    border-radius: 4%;
-    background-color:#F0F0F0;
-    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-    font-weight: 700;
-    font-size: 0.750em;
-    color: #777778;
-}
 
-#sharebtn {
-    width: 120px;
-    height: 35px;
-    margin-top: 4%;
-    margin-left: 6%;
-    border-radius: 4%;
-    background-color:#F0F0F0;
-    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-    font-weight: 700;
-    font-size: 0.750em;
-    color: #777778;
-}
+
+
+
+
+
+
+
+

@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML/CSS Prototype</title>
-    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css" /> 
+	  
+	
   </head>
   <body>
     <div class="container">
@@ -12,34 +14,24 @@
     </div>
 
     <!-- Your code goes here -->
-    <h1 style="	text-align: center;
-    	margin: 0 auto;">Recreate this using HTML &amp;<br> CSS</h1>  <!--I was unsure if an exact replica was needed that included the heading. If not, this section is just removed -->
-    <div class="grid">
-       <div class="grid-item-one"></div>
-       <div class="grid-item-two">
-           <div class="heading"><h4>$167 still needed for this project</h4></div>
-        </div>
-       <div class="grid-item-three"></div>
-       <div class="grid-item-four"></div>
-       <div class="grid-item-five">
-           <progress max="100" value="77"></progress>
-           <p><strong style="color:#EF5F3C">Only 3 days left</strong> to fund this project.</p>
-            <p>Join the <strong>42</strong> other donors who have<br> already supported this project. Every<br> dollar helps.</p>
-            <form>
-                <input type="text" id="amount" placeholder="$ 50">
-               <button type="button" id="givebtn">Give Now</button>
-           </form>
-           <p id="givetext"><em>Why give $50?</em></p>
-       </div>
-       <div class="grid-item-six"></div>
-        <div class="grid-item-seven"></div>
-        <div class="grid-item-eight">
-            <button type="button" id="savebtn">Save for later</button>
-            <button type="button" id="sharebtn">Tell your friends</button>
-       </div>
-        <div class="grid-item-nine"></div>
-   </div>
 
-
+	 <div class = "divContainer">
+	 	<div class= "topbar">
+	  	  <p><strong>$167</strong> still needed for this project</p>
+	  	</div>
+		 <div class = "mainSectionContainer">
+			 <div id = "progressBarOne"></div>
+			 <div id= "progressBarTwo"></div>
+			 <div class = "mainContent"> 
+				 <p><span><strong>Only 3 days left </strong></span> to fund this project.</p>
+				 <p>Join the <strong>42</strong> other donors who have <br> already supported this project. Every <br> dollar helps.</p>
+				 <input class = "amount" type = "text" value = "$ 50" >
+				 <div class = "giveNow">Give Now</div>
+				 <div class = "whyGive"><em>Why give $50?</em></div>
+				 <div class = "buttonOne bottomSection"><strong>Save for later</strong></div>
+				 <div class= "buttonTwo bottomSection"><strong>Tell your friends</strong></div>	 
+			 </div> 
+		 </div>
+	  </div>
   </body>
-</html>
+ 
