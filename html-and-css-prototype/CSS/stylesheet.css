@@ -1,22 +1,22 @@
 .divContainer {	
-	margin-left: 15px;
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	width: 571px;
-	height: 396.59px;
+    margin-left: 15px;
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    width: 571px;
+    height: 396.59px;
 }
 
 .topbar {
-	width:265px;
-	height: 43px;
-	background-color: #424242;
-	border-radius: 3px;
-	color: white;
-	text-align: center;
+    width:265px;
+    height: 43px;
+    background-color: #424242;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-align: center;
     font-size: 13px;
     position: absolute;
-	border-color: #424242 transparent transparent transparent;
-  	border-width: 4px 4px 4px 4px;
-	margin-bottom: 10px;
+    border-color: #424242 transparent transparent transparent;
+    border-width: 4px 4px 4px 4px;
+    margin-bottom: 10px;
 }
 
 .topbar:after {
@@ -27,73 +27,73 @@
     content: "";
     position: absolute;
     right: 26px;
-	top: 42px;
+    top: 42px;
 }
 
 .mainSectionContainer {
-	border: 1px solid #FAFAFA;
-	height: 195px;
-	width: 265px;
-	position: relative;
-	top: 52px;
-	font-size: 20px;
-	border: 1px solid #eaeaea;
+    border: 1px solid #FAFAFA;
+    height: 195px;
+    width: 265px;
+    position: relative;
+    top: 52px;
+    font-size: 20px;
+    border: 1px solid #eaeaea;
 }
 
 #progressBarOne {
-	width: 198px;
-	height: 11px;
-	background-color: #F25E34;	
-	float: left;
-	bottom: -50px;
-	border-bottom: 1px solid #eaeaea;
+    width: 198px;
+    height: 11px;
+    background-color: #F25E34;	
+    float: left;
+    bottom: -50px;
+    border-bottom: 1px solid #eaeaea;
 }
 
 #progressBarTwo {
-	width:67px;
-	height: 11px;
-	background-color: #FAFAFA;
-	left: 198px;
-	position: relative;
-	position: relative;
-	border-bottom: 1px solid #eaeaea;
+    width:67px;
+    height: 11px;
+    background-color: #FAFAFA;
+    left: 198px;
+    position: relative;
+    position: relative;
+    border-bottom: 1px solid #eaeaea;
 }
 	
 span {
-	font-size: 12px;
-	color: #F25E34;
+    font-size: 12px;
+    color: #F25E34;
 }
 
 .mainContent {
-	font-size: 12px;
-	color: #838383;
-	margin-left: 22px;
+    font-size: 12px;
+    color: #838383;
+    margin-left: 22px;
 }
 
 .amount {
-	width: 95px;
-	height: 40px;
-	float:left;
-	border: 1px solid #eaeaea;
-	background-color: #FFFFFF;
-	border-radius: 2px;
-	font-size: 15px;
-	text-align: left;
-	vertical-align: middle;
-	line-height: 45px; 
-	padding-left: 6px;
-	color: #828282;
-	font-weight: bold;
+   width: 95px;
+   height: 40px;
+   float:left;
+   border: 1px solid #eaeaea;
+   background-color: #FFFFFF;
+   border-radius: 2px;
+   font-size: 15px;
+   text-align: left;
+   vertical-align: middle;
+   line-height: 45px; 
+   padding-left: 6px;
+   color: #828282;
+   font-weight: bold;
 }
 
 .giveNow {
-	width: 105px;
-	height: 42px;
+    width: 105px;
+    height: 42px;
 	margin-left: 120px;
 	margin-top: 13px;
 	background-color: #00BE1C;
 	border-radius: 2px;
-	color: white;
+	color: #FFFFFF;
 	font-size: 15px;
 	text-align: center;
 	vertical-align: middle;
@@ -133,17 +133,3 @@ span {
 	margin-top: -65px;
 	margin-top: 53px;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
